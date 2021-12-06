@@ -193,6 +193,12 @@ hr{
     text-decoration: none;
 }
 
+@media (max-width:767px) {
+    .subscribe{
+        background-attachment: initial;
+    }
+}
+
 @media (max-width:576px) {
     .subscribe-title h2 {
         font-size: 28px;
