@@ -337,6 +337,21 @@ select{
     }
 }
 
+@media (max-width:576px) {
+    .tab{
+        min-width: 112px;
+        line-height: 2;
+    }
+
+    select{
+        font-size: 13px;
+    }
+
+    .radio label{
+        font-size: 14px;
+    }
+}
+
 .hide{
     opacity: 0;
     visibility: hidden;
