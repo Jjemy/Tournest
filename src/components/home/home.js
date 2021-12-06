@@ -52,15 +52,15 @@ export default function Home() {
             </div>
             <div className="container tabs">
                 <div className="row tab-link">
-                    <button className="tab col-2" onClick={()=>openTab('tours')}>
+                    <button className="tab col-sm-2 col-4" onClick={()=>openTab('tours')}>
                         <i className="fa fa-tree" />
                         Tours
                     </button>
-                    <button className="tab col-2" onClick={()=>openTab('hotels')}>
+                    <button className="tab col-sm-2 col-4" onClick={()=>openTab('hotels')}>
                         <i className="fa fa-building" />
                         Hotels
                     </button>
-                    <button className="tab col-2" onClick={()=>openTab('flights')}>
+                    <button className="tab col-sm-2 col-4" onClick={()=>openTab('flights')}>
                         <i className="fa fa-plane" />
                         Flights
                     </button>

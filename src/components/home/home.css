@@ -339,8 +339,7 @@ select{
 
 @media (max-width:576px) {
     .tab{
-        min-width: 112px;
-        line-height: 2;
+        min-width: 108px;
     }
 
     select{
