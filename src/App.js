@@ -26,7 +26,7 @@ function App() {
         }
 
         sections.forEach(section => {
-          if(window.scrollY>=section.offsetTop-5){
+          if(window.scrollY>=section.offsetTop-1){
             let current=section.getAttribute('id');
             console.log(current);
             links.forEach(link=>{

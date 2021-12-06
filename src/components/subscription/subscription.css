@@ -203,6 +203,10 @@ hr{
     .subscribe-title h2 {
         font-size: 28px;
     }
+
+    .subscribe-btn{
+        padding:17px 20px;
+    }
 }
 
 @media (min-width:1200px) {

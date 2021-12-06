@@ -132,6 +132,10 @@
     text-transform: capitalize;
 }
 
+.owl-item{
+    border:none;
+}
+
 .owl-dot span{
     background: #aaa;
 }
